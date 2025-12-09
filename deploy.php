@@ -3,6 +3,7 @@ namespace Deployer;
 
 require 'recipe/laravel.php';
 
+set('branch', 'master');
 set('application', 'ElTeuProjecte');
 set('repository', 'https://github.com/JorgeVidal20/Proyecto-Despliegues'); // O https
 set('http_user', 'www-data');
